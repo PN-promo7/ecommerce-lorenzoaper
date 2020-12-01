@@ -1,0 +1,173 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+
+  /* Styles */
+  body {
+    font-size: 0.5rem;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  /* Navigation */
+  .nav-fixed {
+    position: inherit;
+    width: 100%;
+  }
+
+  .container-nav {
+    width: 100%;
+  }
+
+  .menu {
+    margin-left: 3%;
+  }
+
+  .logo {
+    margin: 0%;
+    width: 15%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    font-size: 0.7rem;
+    margin: 4%;
+  }
+
+  /* Call to action */
+  .cta h1 {
+    font-size: 1rem;
+  }
+
+  .cta h2 {
+    font-size: 0.8rem;
+  }
+
+  .cta p {
+    font-size: 0.5rem;
+    width: 69%;
+  }
+
+  /* Gammes  */
+  .section-gamme {
+    background-image: url('../images/motif-03.png');
+    background-repeat: no-repeat;
+    background-position: 90% -1%;
+    background-size: 25%;
+    margin: 5% auto;
+  }
+
+  .section-gamme h2 {
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 82px;
+  }
+
+  .gamme {
+    align-content: center;
+    display: contents;
+    margin: 0%;
+  }
+
+  .gamme-paragraphe {
+    margin-left: 0%;
+    padding: 10% 3%;
+    width: 100%;
+  }
+
+  .gamme a {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flexbox {
+    display: inline-block;
+  }
+
+  .produits h2 {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-left: 4%;
+    padding-top: 4%;
+    text-align: left;
+  }
+
+  .produit-paragraphe {
+    width: 91%;
+  }
+
+  .leftbox, .rightbox, .box {
+    border-radius: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 0%;
+    width: 100%;
+  }
+
+  .box h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 0.6rem;
+    margin: 2% 5%;
+  }
+
+  .box h4 {
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin: 3% 5% 1% 5%;
+  }
+
+  .promo {
+    height: 25%;
+  }
+
+  .section-services{
+    display: inline-block;
+  }
+
+  .services {
+    margin: 0%;
+    padding: 4%;
+    width: 100%;
+  }
+
+  /* Footer */
+  .container {
+    width: 100%;
+  }
+
+  div .container .flexbox {
+    display: list-item;
+  }
+
+  #title {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    top: 280%;
+  }
+
+  .footer .col {
+    width: 50%;
+  }
+
+  #formulaireNewsletter{
+    width: 100%;
+  }
+
+  #backtotop a {
+    font-size: 1.2rem;
+  }
+}
